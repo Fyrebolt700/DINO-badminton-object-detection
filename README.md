@@ -28,6 +28,21 @@ Grounding DINO was able to return bounding boxes, but the boxes were often not c
 
 Zero-shot Grounding DINO alone does not appear reliable enough for badminton shuttlecock pixel localization. It may be useful as a baseline, but tracking-specific approaches such as TrackNet, or simpler HSV/motion-based baselines, are likely better directions for this task.
 
-## Notes
+## Sample Results
 
-This was a quick proof-of-concept evaluation, not a trained detector. No model fine-tuning was performed.
+Prompt sweep summary:
+
+![Prompt sweep results](ss3.png)
+
+Example DINO failure case:
+
+Green dot = manually labeled shuttle center.  
+Red box/dot = Grounding DINO prediction.
+
+![DINO failure example](dino ss1.png)
+
+Example closer detection:
+![DINO closer detection](dino ss2.png)
+![DINO closer detection](dino ss2.png)
+
+This was a quick proof-of-concept evaluation, not a trained detector. No model fine-tuning was perfo
