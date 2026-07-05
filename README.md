@@ -47,4 +47,4 @@ Example closer detection:
 
 
 
-This was a quick proof-of-concept evaluation, not a trained detector. No model fine-tuning was perfo
+This was a quick proof-of-concept evaluation, not a trained detector. No model fine-tuning was performed.
