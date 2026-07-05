@@ -32,17 +32,19 @@ Zero-shot Grounding DINO alone does not appear reliable enough for badminton shu
 
 Prompt sweep summary:
 
-![Prompt sweep results](ss3.png)
+![Prompt sweep results](prompt_sweep_results.png)
 
 Example DINO failure case:
 
 Green dot = manually labeled shuttle center.  
 Red box/dot = Grounding DINO prediction.
 
-![DINO failure example](dino ss1.png)
+![DINO failure example](dino_failure_example.png)
 
 Example closer detection:
-![DINO closer detection](dino ss2.png)
-![DINO closer detection](dino ss2.png)
+
+![DINO closer detection](dino_success_example.png)
+
+
 
 This was a quick proof-of-concept evaluation, not a trained detector. No model fine-tuning was perfo
